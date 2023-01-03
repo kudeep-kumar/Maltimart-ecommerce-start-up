@@ -46,14 +46,14 @@
   color: var(--primary-color);
   cursor: pointer;
 }
-.card__icon,
+.cart__icon,
 .fav__icon {
-  position: relative;  
+  position: relative;
 }
 .badge {
   position: absolute;
   top: 25%;
-   right: -8%;
+  right: -8%;
   width: 15px;
   height: 15px;
   content: "";
@@ -66,6 +66,7 @@
   font-size: 0.7rem;
   font-weight: 600;
   z-index: 10;
+  cursor: pointer;
 }
 .nav__icons span img {
   width: 30px;
